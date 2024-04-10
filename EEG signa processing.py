@@ -33,7 +33,7 @@ bands = {
 }
 
 # Main execution
-csv_file = 'C://Users//eliot//Desktop//CreaTech//EXPETECH//archive//s00.csv'  # Replace with your CSV file path
+csv_file = 'pathToFile.csv'  # Replace with your CSV file path
 eeg_data = read_eeg_data(csv_file)
 fs = 256  # Sampling frequency
 
